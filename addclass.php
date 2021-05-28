@@ -235,11 +235,8 @@ if(isset($_POST['addclass']))
   if($connection)
   {
  $class=$_POST['class'];
- 
- 
 
-
- $query=mysqli_query($connection,"INSERT INTO class (class) VALUES('$class')");
+ $query=mysqli_query($connection,"INSERT INTO classes (class_name) VALUES('$class')");
    if($query)
     {
         echo "added successfully";

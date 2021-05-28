@@ -38,13 +38,6 @@
                      <i class="fa fa-th"></i>
                      <span>Classroom</span> </a>
              </li>
-
-             <li>
-                 <a href="lab.php">
-                     <i class="fa fa-pie-chart"></i>
-                     <span>Labs</span></a>
-             </li>
-
              <li>
                  <a href="staff.php">
                      <i class="glyphicon glyphicon-user"></i>

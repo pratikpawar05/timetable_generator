@@ -2,9 +2,8 @@
 
 $srno = $_GET['srno'];
 include "database.php";
-include "config.php";
 
-$sql = mysqli_query($connection,"DELETE FROM class WHERE srno='$srno'");
+$sql = mysqli_query($connection,"DELETE FROM classes WHERE id='$srno'");
 
 if($sql) {
 			echo " Subject Deleted successfully..."; ?>
